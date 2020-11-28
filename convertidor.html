@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   
+    <link rel="stylesheet" href="estilos.css">
+    <title>Pagina criptomoneda</title>
+</head>
+
+<body>
+
+    <div id="contenedor">        
+
+        <div id="encabezado">            
+            <img src="img/bitcoin-vector-logo-cryptocurrency-illustration_csp58608523.jpg" width="150px" class="imagen-redonda2">            
+            <h1>Informacion Criptomoneda
+            </h1>
+        </div>
+
+        <nav id="navegacion">            
+            
+            <a href="index.html" class="active">MAIN</a>
+
+            <a href="informacion.html">INFORMACIÓN</a>
+            <a href="historia.html">HISTORIA</a>
+            <a href="convertidor.html">CONVERTIDOR</a>
+            <a href="influencia.html">INFLUENCIA</a>
+            <a href="uso.html">COMO USARLO</a>
+        </nav>
+
+        <div class="principal">
+
+            <h2>Convertidor de criptomonedas</h2>
+
+            <p>Para usar el convertidor de criptomonedas, por favor seguir los siguientes pasos: <br><br>
+            1. Elegir la criptomoneda <br><br>
+            2. Escribir la cantidad de criptomoneda a convertir <br><br>
+            3. Listo <br><br>
+            </p>
+
+            <div>
+            <p> Elija la moneda de cambio: <select id="crypto"></p>
+              <option value="1">Bitcoin</option>
+              <option value="2">Dogecoin</option>
+              <option value="3">Akroma</option>
+              <option value="4">Petro</option>
+            </select> 
+            </div>
+
+            <p>Valor en $ <input type="number" id="valor" value="0" min="0"></p>
+            <p><input type="button" class="btn" id="calcular" value="Calculate" style="float: left;"></p>
+            <p><input type="button" class="btn" id="borrar" value="Borrar"></p>
+            <p id="output">Resultado:</p>
+
+            <a href="#encabezado">
+                <button>Retornar al menu</button>
+            </a>
+
+        </div>
+
+        <div class="footer">
+
+            <p>Made with love by matudares <br>
+            Like what you see? Follow me on my social media:
+            </p>
+            
+            <ol>
+                <a href="#encabezado">
+                    <img src="img/Facebook.png"  alt="Facebook">
+                </a>
+                
+                <img src="img/Twitter.png" alt="Twitter">
+                <img src="img/Instagram.png" alt="Instagram">
+                <a href="mailto:matudares@gmail.com">
+                    <img src="img/Gmail.png" alt="Gmail">
+                </a>
+            </ol>
+            
+        </div>
+
+    </div>
+
+</body>
+<script src="script.js"></script>
+</html>
